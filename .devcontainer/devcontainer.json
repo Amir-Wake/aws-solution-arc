@@ -4,7 +4,11 @@
 	"name": "Ubuntu",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
-		"ghcr.io/devcontainers/features/aws-cli:1": {},
-		"ghcr.io/dhoeric/features/terraformer:1": {}
-	}
-}
+	  "ghcr.io/devcontainers/features/aws-cli:1": {}
+	},
+	"postCreateCommand": [
+		"chmod +x /preScripts/terraform.sh",
+		"bash /preScripts/terraform.sh"
+	  ]
+  }
+  
