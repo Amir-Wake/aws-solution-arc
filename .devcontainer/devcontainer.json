@@ -7,8 +7,7 @@
 	  "ghcr.io/devcontainers/features/aws-cli:1": {}
 	},
 	"postCreateCommand": [
-		"chmod +x /preScripts/terraform.sh",
-		"bash /preScripts/terraform.sh"
+		"./preScripts/terraform.sh"
 	  ]
   }
   
