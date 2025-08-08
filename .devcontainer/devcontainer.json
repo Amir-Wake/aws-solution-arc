@@ -7,7 +7,7 @@
 	  "ghcr.io/devcontainers/features/aws-cli:1": {}
 	},
 	"postCreateCommand": [
-		"./preScripts/terraform.sh"
+		"./preScripts/aws_login.sh"
 	  ]
   }
   
