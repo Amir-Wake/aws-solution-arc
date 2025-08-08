@@ -1,0 +1,14 @@
+- make script excutable: chmod +x
+    chmod: change file permission
+    +x: add excutable permission
+
+- Basic commands
+    echo: print
+    pwd: current location path
+    ls -a: list contents inc hidden file
+    mkdir: create directory
+    touch: create file
+    cat: displey file
+    which: show path of excutables
+    export: set environmetn variable
+    
